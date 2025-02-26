@@ -97,7 +97,7 @@
 			: 'Check the latest weather updates!'}
 	/>
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content="/weather-thumbnail.jpg" />
+	<meta property="og:image" content="https://weatherat.vercel.app/weather-preview.png" />
 	<meta property="og:url" content="https://weatherat.vercel.app" />
 
 	<meta name="twitter:card" content="summary_large_image" />
@@ -111,7 +111,7 @@
 			? `Current temperature: ${weatherData.current.temp_c}°C in ${weatherData.location.name}.`
 			: 'Check the latest weather updates!'}
 	/>
-	<meta name="twitter:image" content="/weather-thumbnail.jpg" />
+	<meta name="twitter:image" content="https://weatherat.vercel.app/weather-preview.png" />
 </svelte:head>
 
 <div
