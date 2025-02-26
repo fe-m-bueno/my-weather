@@ -58,7 +58,6 @@ Return a pure JSON with this schema:
 			.replace(/\r/g, '')
 			.replace(/\t/g, ' ')
 			.trim();
-		console.log(textResponse);
 
 		let output: GeminiActivity[];
 		try {

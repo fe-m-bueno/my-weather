@@ -115,11 +115,11 @@
 </svelte:head>
 
 <div
-	class={`min-h-screen flex flex-col items-center justify-center transition-all duration-300 ${themeClass} py-8`}
+	class={`min-h-screen py-8 flex flex-col items-center justify-center transition-all duration-300 ${themeClass}`}
 >
 	<nav class="flex flex-row justify-between items-center mb-8 w-full ~px-6/16">
-		<span class="~text-lg/4xl font-bold text-white">Weather@</span>
-		<h1 class="~text-lg/4xl font-bold text-white lg:absolute lg:left-1/2 lg:translate-x-[-50%]">
+		<span class="~text-sm/4xl font-bold text-white">Weather@</span>
+		<h1 class="~text-sm/4xl font-bold text-white lg:absolute lg:left-1/2 lg:translate-x-[-50%]">
 			{weatherData
 				? `${weatherData?.location.name} - ${weatherData?.location.country}`
 				: 'Loading...'}
@@ -132,7 +132,7 @@
 			{unit === 'C' ? '°C' : '°F'}
 		</button>
 	</nav>
-	<div class="mx-auto px-4 min-w-[320px] ~w-[16rem]/[72rem]">
+	<div class="mx-auto px-4 ~w-[12rem]/[72rem]">
 		<div class="mb-6">
 			<Search onSelect={(location) => fetchWeather(`${location.name}, ${location.country}`)} />
 		</div>
