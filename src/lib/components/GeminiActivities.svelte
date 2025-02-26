@@ -37,7 +37,6 @@
 			loading = false;
 		}
 	}
-	$: console.log('Loading State:', loading);
 
 	$: if (weatherData) {
 		fetchActivities();
