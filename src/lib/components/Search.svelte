@@ -23,6 +23,7 @@
 		searchQuery = location.name + ', ' + location.region + ', ' + location.country;
 		searchResults = [];
 		if (onSelect) onSelect(location);
+		searchQuery = '';
 	}
 </script>
 
