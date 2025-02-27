@@ -66,6 +66,8 @@
 			'bg-gradient-to-b from-gray-500 to-gray-800 dark:bg-gradient-to-b dark:from-gray-800 dark:to-gray-500';
 
 		document.documentElement.setAttribute('data-mode', isDaytime ? 'light' : 'dark');
+		const themeColor = isDaytime ? '#ffffff' : '#000000';
+		document.querySelector('meta[name="theme-color"]')?.setAttribute('content', themeColor);
 	}
 </script>
 

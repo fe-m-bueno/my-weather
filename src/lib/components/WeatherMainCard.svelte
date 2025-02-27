@@ -15,7 +15,7 @@
 		</div>
 
 		<p class="mt-2 ~text-6xl/9xl font-bold">{value}</p>
-		<p class="~text-2xl/3xl">{text}</p>
+		<p class="~text-2xl/3xl text-center">{text}</p>
 	{:else}
 		<div class="w-16 h-16 bg-gray-300 dark:bg-gray-700 rounded-full animate-pulse"></div>
 		<h2 class="text-sm font-semibold text-center">{title}</h2>

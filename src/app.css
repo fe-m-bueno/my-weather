@@ -7,5 +7,6 @@
 	box-sizing: border-box;
 }
 body {
+	@apply bg-scroll;
 	@apply dark:text-white text-black;
 }
